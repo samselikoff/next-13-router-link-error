@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
         <header>
           <nav>
             <Link href="/">Home</Link>
-            <Link href="/foo">Foo</Link>
+            <Link href="/about">About</Link>
           </nav>
         </header>
         <main style={{ border: "1px solid black", padding: 10, marginTop: 10 }}>
