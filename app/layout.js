@@ -7,18 +7,15 @@ export default function RootLayout({ children }) {
         <title>Next.js</title>
       </head>
 
-      <body>
-        <p>
-          <Link href="/">Logo</Link>
-        </p>
+      <body style={{ padding: 20 }}>
         <header>
           <nav>
             <Link href="/">Home</Link>
             <Link href="/foo">Foo</Link>
           </nav>
         </header>
-        <main style={{ border: "1px solid black", padding: 10 }}>
-          <small>main layout</small>
+        <main style={{ border: "1px solid black", padding: 10, marginTop: 10 }}>
+          <small>root layout</small>
           <div>{children}</div>
         </main>
       </body>
